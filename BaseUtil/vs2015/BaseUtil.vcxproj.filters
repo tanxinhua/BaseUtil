@@ -16,11 +16,14 @@
     <Filter Include="头文件\export">
       <UniqueIdentifier>{489974ae-b334-4d26-91a9-6cdf4acf3351}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\export\log">
-      <UniqueIdentifier>{6bebf7ad-6b56-4937-9390-b36367bd7b69}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\log">
       <UniqueIdentifier>{70543776-c065-4e99-81c8-a2672d542924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\export\Util">
+      <UniqueIdentifier>{3e17be84-ed03-492a-a7db-0525e3f98084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\export\Log">
+      <UniqueIdentifier>{6bebf7ad-6b56-4937-9390-b36367bd7b69}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -49,13 +52,19 @@
       <Filter>头文件\export</Filter>
     </ClInclude>
     <ClInclude Include="..\export\log\Logger.h">
-      <Filter>头文件\export\log</Filter>
+      <Filter>头文件\export\Log</Filter>
     </ClInclude>
     <ClInclude Include="..\export\log\LogHelper.h">
-      <Filter>头文件\export\log</Filter>
+      <Filter>头文件\export\Log</Filter>
     </ClInclude>
     <ClInclude Include="..\export\UBThread.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\export\util\CircularQueue.h">
+      <Filter>头文件\export\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\export\util\BlockingQueue.h">
+      <Filter>头文件\export\Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

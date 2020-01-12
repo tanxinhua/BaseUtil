@@ -3,7 +3,7 @@
 #include <vector>
 
 namespace BaseUtil {
-	namespace util {
+	namespace Util {
 		template<typename T>
 		/*!
 		 * @class CircularQueue
@@ -74,7 +74,7 @@ namespace BaseUtil {
 
 			/*!
 			*  @brief OverrunCounter
-			*  @return bool
+			*  @return size_t
 			*/
 			size_t OverrunCounter() const
 			{
